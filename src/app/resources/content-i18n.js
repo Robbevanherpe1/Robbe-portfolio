@@ -2,19 +2,19 @@ import { InlineCode } from "@/once-ui/components";
 
 const createI18nContent = (t) => {
     const person = {
-        firstName: 'Selene',
-        lastName:  'Yu',
+        firstName: 'Robbe',
+        lastName:  'Van Herpe',
         get name() {
             return `${this.firstName} ${this.lastName}`;
         },
-        role:      t("person.role"),
+        role:     'Mainframe Developer',
         avatar:    '/images/avatar.jpg',
-        location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-        languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+        location:  'Europe/Brussels',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+        languages: ['English +','Dutch ++','French -']  // optional: Leave the array empty if you don't want to display languages
     }
 
     const newsletter = {
-        display: true,
+        display: false,
         title: <>{t("newsletter.title", {firstName: person.firstName})}</>,
         description: <>{t("newsletter.description")}</>
     }
@@ -25,12 +25,12 @@ const createI18nContent = (t) => {
         {
             name: 'GitHub',
             icon: 'github',
-            link: 'https://github.com/once-ui-system/nextjs-starter',
+            link: 'https://github.com/Robbevanherpe1',
         },
         {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'https://www.linkedin.com/company/once-ui/',
+            link: 'www.linkedin.com/in/robbe-van-herpe-3ab023227',
         },
         {
             name: 'X',
@@ -40,7 +40,7 @@ const createI18nContent = (t) => {
         {
             name: 'Email',
             icon: 'email',
-            link: 'mailto:example@gmail.com',
+            link: 'robbe.van.herpe@outlook.com',
         },
     ]
 
@@ -64,16 +64,16 @@ const createI18nContent = (t) => {
             display: true
         },
         calendar: {
-            display: true,
+            display: false,
             link: 'https://cal.com'
         },
         intro: {
             display: true,
-            title: t("about.intro.title"),
-            description: <>{t("about.intro.description")}</>
+            title: 'Introduction',
+            description: <>Mijn naam is Robbe ik ben een student aan hogent die de opleiding mainframe expert volgt. Mijn programeer focus ligt op de PL1 programeer taal. In deze taal zou ik dan ook graag een cariere uitbouwen.</>
         },
         work: {
-            display: true, // set to false to hide this section
+            display: false, // set to false to hide this section
             title: t("about.work.title"),
             experiences: [
                 {
@@ -104,12 +104,12 @@ const createI18nContent = (t) => {
             title: 'Studies',
             institutions: [
                 {
-                    name: 'University of Jakarta',
-                    description: <>{t(`about.studies.institutions.University of Jakarta.description`)}</>,
+                    name: 'University college Hogent',
+                    description: <>Studied Mainframe expert.</>,
                 },
                 {
-                    name: 'Build the Future',
-                    description: <>{t("about.studies.institutions.Build the Future.description")}</>,
+                    name: 'Sint Maarten Instituut',
+                    description: <>Studied Networking and IT.</>,
                 }
             ]
         },
@@ -118,8 +118,8 @@ const createI18nContent = (t) => {
             title: t("about.technical.title"),
             skills: [
                 {
-                    title: 'Figma',
-                    description: <>{t("about.technical.skills.Figma.description")}</>,
+                    title: 'Mainframe',
+                    description: <>Able to work with ISPF - Z/OS Systems - PL/1 - JCL - Rexx.</>,
                     images: [
                         {
                             src: '/images/projects/project-01/cover-02.jpg',
@@ -137,7 +137,19 @@ const createI18nContent = (t) => {
                 },
                 {
                     title: 'Next.js',
-                    description: <>{t("about.technical.skills.Nextjs.description")}</>, // "." not accepted in next-intl namespace
+                    description: <>Capable of using next.js to make interactive sites</>, // "." not accepted in next-intl namespace
+                    images: [
+                        {
+                            src: '/images/projects/project-01/cover-04.jpg',
+                            alt: 'Project image',
+                            width: 16,
+                            height: 9
+                        },
+                    ]
+                },
+                {
+                    title: 'AI - Data Engineering',
+                    description: <>Knowlidge of Ai models and able to manage big datasets</>, // "." not accepted in next-intl namespace
                     images: [
                         {
                             src: '/images/projects/project-01/cover-04.jpg',

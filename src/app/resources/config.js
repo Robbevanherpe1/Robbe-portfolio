@@ -1,7 +1,7 @@
 const baseURL = 'demo.app'
 
 // Enable localization
-const i18n = false;
+const i18n = true;
 
 // Manage localized content in the messages folder
 const i18nOptions = {
@@ -10,10 +10,10 @@ const i18nOptions = {
 }
 
 const routes = {
-    '/':        true,
+    '/':        false,
     '/about':   true,
     '/work':    true,
-    '/blog':    true,
+    '/blog':    false,
     '/gallery': true,
 }
 
@@ -31,14 +31,14 @@ const effects = {
 
 const style = {
     theme:       'dark',         // dark | light
-    neutral:     'gray',         // sand | gray | slate
-    brand:       'aqua',         // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    accent:      'yellow',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    neutral:     'slate',         // sand | gray | slate
+    brand:       'indigo',         // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    accent:      'cyan',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
     solid:       'contrast',     // color | contrast
-    solidStyle:  'flat',         // flat | plastic
-    border:      'playful',      // rounded | playful | conservative
+    solidStyle:  'plastic',         // flat | plastic
+    border:      'rounded',      // rounded | playful | conservative
     surface:     'translucent',  // filled | translucent
-    transition:  'all'           // all | micro | macro
+    transition:  'micro'           // all | micro | macro
 }
 
 const display = {
