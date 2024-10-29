@@ -30,17 +30,17 @@ const createI18nContent = (t) => {
         {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'www.linkedin.com/in/robbe-van-herpe-3ab023227',
+            link: 'https://www.linkedin.com/in/robbe-van-herpe-3ab023227/',
         },
         {
-            name: 'X',
-            icon: 'x',
-            link: '',
+            name: 'Pl/1 course',
+            icon: 'globe',
+            link: 'https://pl1-learn.vercel.app/',
         },
         {
             name: 'Email',
             icon: 'email',
-            link: 'robbe.van.herpe@outlook.com',
+            link: 'mailto:robbe.van.herpe@outlook.com',
         },
     ]
 
@@ -70,7 +70,7 @@ const createI18nContent = (t) => {
         intro: {
             display: true,
             title: 'Introduction',
-            description: <>Mijn naam is Robbe ik ben een student aan hogent die de opleiding mainframe expert volgt. Mijn programeer focus ligt op de PL1 programeer taal. In deze taal zou ik dan ook graag een cariere uitbouwen.</>
+            description: <>My name is Robbe, and I am a student at HoGent pursuing the Mainframe Expert program. My programming focus is on the PL/I programming language, and I would like to build a career in this language.</>
         },
         work: {
             display: false, // set to false to hide this section

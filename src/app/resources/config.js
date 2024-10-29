@@ -14,7 +14,7 @@ const routes = {
     '/about':   true,
     '/work':    true,
     '/blog':    false,
-    '/gallery': true,
+    '/gallery': false,
 }
 
 // Enable password protection on selected routes
@@ -38,7 +38,7 @@ const style = {
     solidStyle:  'plastic',         // flat | plastic
     border:      'rounded',      // rounded | playful | conservative
     surface:     'translucent',  // filled | translucent
-    transition:  'micro'           // all | micro | macro
+    transition:  'all'           // all | micro | macro
 }
 
 const display = {

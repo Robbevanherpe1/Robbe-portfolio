@@ -32,9 +32,9 @@ const social = [
         link: 'www.linkedin.com/in/robbe-van-herpe-3ab023227',
     },
     {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        name: 'Pl/1 course',
+        icon: 'linkedin',
+        link: 'https://pl1-learn.vercel.app/',
     },
     {
         name: 'Email',
