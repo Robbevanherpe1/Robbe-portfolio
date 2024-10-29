@@ -1,5 +1,5 @@
 ---
-title: "Building an PL/1 learning site"
+title: "Building a PL/1 learning site"
 publishedAt: "2024-04-08"
 summary: "In this project, I developed a site where people can learn the fundamentals of PL/1"
 images:
@@ -9,19 +9,23 @@ images:
 
 ## Overview
 
-In this project, I developed a flexible and scalable design system using Next.js for front-end development and Figma for design collaboration. The goal was to create a reusable component library that not only adheres to consistent design principles but is also easily extendable for future needs. The design system was aimed at improving the overall developer experience while maintaining visual consistency across multiple projects.
+In this project, I developed an interactive learning platform using Next.js, focused on teaching PL/I programming fundamentals. The goal was to create a structured, user-friendly educational tool that guides learners through essential PL/I concepts in a modular format. Each chapter introduces key topics in PL/I, with a design that emphasizes readability and ease of navigation. The platform is optimized for scalability, allowing additional chapters and content to be added seamlessly in the future.
 
 ## Key Features
 
-- **Component Library**: Built a set of modular, reusable UI components using React and styled-components in Next.js, focusing on accessibility and responsiveness.
-- **Theming and Customization**: Integrated a theming system that allows easy switching and customization of color palettes, typography, and layout styles using CSS variables and Figma tokens.
-- **Figma Integration**: Collaborated closely with designers by setting up a shared design library in Figma. This library was synchronized with the codebase, ensuring design handoffs were seamless and that design tokens remained consistent across both platforms.
-- **Documentation and Usage Guidelines**: Developed comprehensive documentation with Storybook to showcase components, usage patterns, and best practices, ensuring the design system is easy to adopt by other teams.
+- **Modular Chapter-Based Learning**: The platform organizes PL/I topics into distinct chapters, each presented as an interactive card. This modular format allows users to follow a structured path from basic to advanced topics.
+- **Responsive and Accessible Design**: Built with accessibility and responsiveness in mind, ensuring an optimal learning experience across devices, whether on desktop or mobile.
+- **Consistent Styling and Theming**: Implemented a consistent design theme with reusable components, leveraging CSS variables for easy adjustments to color schemes, typography, and layout styles. This approach enhances visual consistency across the site.
+- **Intuitive Navigation and Progress Tracking**: Developed a sidebar and easy navigation features to allow learners to jump between chapters and track their learning journey effectively.
+- **Dynamic Content Management**: Each chapter component dynamically pulls in titles, subtopics, and descriptions, making it easy to update or expand content without altering the core structure.
 
 ## Technologies Used
 
-- **Next.js**: For fast, server-rendered React applications.
+- **Next.js**: Leveraged Next.js for server-rendered React components, enabling fast load times and SEO benefits.
+- **CSS Modules and Variables**: Used CSS modules for scoped styling, along with CSS variables to handle theming and styling adjustments across components.
+- **Vercel Analytics and Speed Insights**: Integrated Vercel Analytics and Speed Insights to monitor and optimize performance, ensuring a smooth user experience.
+- **Custom Font Integration**: Used local fonts for a unique visual identity, making the learning platform distinct and cohesive.
 
 ## Challenges and Learnings
 
-One key challenge was balancing the need for flexibility with the desire to maintain design consistency. The solution involved creating well-defined design tokens and establishing clear guidelines for when and how components could be customized. Additionally, setting up effective collaboration workflows between designers and developers using Figma and Git was a learning experience that greatly improved the process.
+One key challenge was ensuring that complex PL/I concepts were presented in an accessible way without overwhelming users. This was achieved by designing a clear, modular structure with intuitive navigation. Additionally, the project involved careful planning of the responsive layout, as PL/I resources typically contain detailed technical information that can be challenging to display on smaller screens. By applying CSS variables and modular components, I was able to maintain a consistent and readable layout across all devices.
