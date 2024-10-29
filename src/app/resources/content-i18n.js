@@ -122,25 +122,25 @@ const createI18nContent = (t) => {
                     description: <>Able to work with ISPF - Z/OS Systems - PL/1 - JCL - Rexx.</>,
                     images: [
                         {
-                            src: '/images/projects/project-01/cover-02.jpg',
+                            src: '/images/projects/project-01/ispf-screen.jpg',
                             alt: 'Project image',
                             width: 16,
                             height: 9
-                        },
-                        {
-                            src: '/images/projects/project-01/cover-03.jpg',
-                            alt: 'Project image',
-                            width: 16,
-                            height: 9
-                        },
+                        }  
                     ]
                 },
                 {
-                    title: 'Next.js',
+                    title: 'Web Development',
                     description: <>Capable of using next.js to make interactive sites</>, // "." not accepted in next-intl namespace
                     images: [
                         {
-                            src: '/images/projects/project-01/cover-04.jpg',
+                            src: '/images/projects/project-01/page.png',
+                            alt: 'Project image',
+                            width: 16,
+                            height: 9
+                        },
+                        {
+                            src: '/images/projects/project-01/page2.png',
                             alt: 'Project image',
                             width: 16,
                             height: 9
@@ -152,7 +152,7 @@ const createI18nContent = (t) => {
                     description: <>Knowlidge of Ai models and able to manage big datasets</>, // "." not accepted in next-intl namespace
                     images: [
                         {
-                            src: '/images/projects/project-01/cover-04.jpg',
+                            src: '/images/projects/project-01/a.png',
                             alt: 'Project image',
                             width: 16,
                             height: 9
