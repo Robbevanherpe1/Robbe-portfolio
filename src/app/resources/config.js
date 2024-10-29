@@ -10,7 +10,7 @@ const i18nOptions = {
 }
 
 const routes = {
-    '/':        false,
+    '/':        true,
     '/about':   true,
     '/work':    true,
     '/blog':    false,
@@ -38,7 +38,7 @@ const style = {
     solidStyle:  'plastic',         // flat | plastic
     border:      'rounded',      // rounded | playful | conservative
     surface:     'translucent',  // filled | translucent
-    transition:  'all'           // all | micro | macro
+    transition:  'cmicrmicrov'           // all | micro | macro
 }
 
 const display = {

@@ -48,8 +48,8 @@ const createI18nContent = (t) => {
         label: t("home.label"),
         title: t("home.title", {name: person.name}),
         description: t("home.description", {role: person.role}),
-        headline: <>{t("home.headline")}</>,
-        subline: <>{t("home.subline")}</>
+        headline: <>Student at Hogent Mainframe Expert</>,
+        subline: <>I'm Robbe, a student at University of applied science Hogent following mainframe curriculum focused on PL/1. </>
     }
 
     const about = {
