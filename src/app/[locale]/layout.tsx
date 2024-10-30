@@ -16,6 +16,7 @@ import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-in
 import { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { renderContent } from "@/app/resources";
+import Head from 'next/head';
 
 export async function generateMetadata(
 	{ params: { locale }}: { params: { locale: string }}
@@ -92,6 +93,9 @@ export default async function RootLayout({
 	const messages = await getMessages();
 	return (
 		<NextIntlClientProvider messages={messages}>
+			<Head>
+                <link rel="icon" href="Robbe-portfolio\src\app\[locale]\favicon.ico" />
+            </Head>
 			<Flex
 				as="html" lang="en"
 				background="page"
