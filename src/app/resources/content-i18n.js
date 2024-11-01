@@ -119,7 +119,7 @@ const createI18nContent = (t) => {
             skills: [
                 {
                     title: 'Mainframe',
-                    description: <>Able to work with ISPF - Z/OS Systems - PL/1 - JCL - Rexx.</>,
+                    description: <>Skilled in working with ISPF, z/OS systems, PL/I, JCL, and REXX.</>,
                     images: [
                         {
                             src: '/images/projects/project-01/ispf-screen.jpg',
@@ -131,7 +131,7 @@ const createI18nContent = (t) => {
                 },
                 {
                     title: 'Web Development',
-                    description: <>Capable of using next.js to make interactive sites</>, // "." not accepted in next-intl namespace
+                    description: <>Proficient in Next.js for creating dynamic and interactive websites.</>, // "." not accepted in next-intl namespace
                     images: [
                         {
                             src: '/images/projects/project-01/page.png',
@@ -148,8 +148,8 @@ const createI18nContent = (t) => {
                     ]
                 },
                 {
-                    title: 'AI - Data Engineering',
-                    description: <>Knowlidge of Ai models and able to manage big datasets</>, // "." not accepted in next-intl namespace
+                    title: 'AI & Data Engineering',
+                    description: <>Experienced with AI models and managing large datasets.</>, // "." not accepted in next-intl namespace
                     images: [
                         {
                             src: '/images/projects/project-01/a.png',
