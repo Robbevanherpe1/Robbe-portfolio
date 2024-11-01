@@ -49,7 +49,7 @@ const createI18nContent = (t) => {
         title: t("home.title", {name: person.name}),
         description: t("home.description", {role: person.role}),
         headline: <>Student at Hogent Mainframe Expert</>,
-        subline: <>I'm Robbe, a student at University of applied science Hogent following mainframe curriculum focused on PL/1. </>
+        subline: <>I'm Robbe, a student at University of applied science Hogent following mainframe curriculum. </>
     }
 
     const about = {
@@ -70,7 +70,7 @@ const createI18nContent = (t) => {
         intro: {
             display: true,
             title: 'Introduction',
-            description: <>My name is Robbe, and I am a student at HoGent pursuing the Mainframe Expert program. My programming focus is on the PL/I programming language, and I would like to build a career in this language.</>
+            description: <>I'm Robbe, a student at Hogent specializing in the Mainframe Expert program. My focus is on programming in PL/I and COBOL, and I am passionate about building a career in the mainframe field.</>
         },
         work: {
             display: false, // set to false to hide this section
