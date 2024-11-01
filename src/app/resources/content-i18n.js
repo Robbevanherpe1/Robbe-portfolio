@@ -70,7 +70,7 @@ const createI18nContent = (t) => {
         intro: {
             display: true,
             title: 'Introduction',
-            description: <>I'm Robbe, a student at Hogent specializing in the Mainframe Expert program. My focus is on programming in PL/I and COBOL, and I am passionate about building a career in the mainframe field.</>
+            description: <>I'm Robbe, a student at Hogent specializing in the Mainframe Expert program. My focus is on programming in PL/I and COBOL, and I'm passionate about building a career in the mainframe field.</>
         },
         work: {
             display: false, // set to false to hide this section
