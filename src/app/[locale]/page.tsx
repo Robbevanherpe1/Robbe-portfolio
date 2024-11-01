@@ -9,6 +9,7 @@ import { Posts } from '@/components/blog/Posts';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export async function generateMetadata(
 	{params: {locale}}: { params: { locale: string }}
@@ -133,6 +134,7 @@ export default function Home(
 				<Mailchimp newsletter={newsletter} />
 			}
 			<Analytics/>
+			<SpeedInsights/>
 		</Flex>
 		
 	);
