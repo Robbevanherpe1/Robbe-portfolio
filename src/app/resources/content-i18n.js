@@ -119,7 +119,7 @@ const createI18nContent = (t) => {
             skills: [
                 {
                     title: 'Mainframe',
-                    description: <>Skilled in working with ISPF, z/OS systems, PL/I, JCL, and REXX.</>,
+                    description: <>Skilled in working with ISPF, z/OS systems, Cobol, JCL, and REXX.</>,
                     images: [
                         {
                             src: '/images/projects/project-01/ispf-screen.jpg',
