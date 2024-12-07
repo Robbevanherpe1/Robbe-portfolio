@@ -30,7 +30,7 @@ const createI18nContent = (t) => {
         {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'https://www.linkedin.com/in/robbe-van-herpe-3ab023227/',
+            link: 'https://www.linkedin.com/in/robbevanherpe/',
         },
         {
             name: 'Pl/1 course',

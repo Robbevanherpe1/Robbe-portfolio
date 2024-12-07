@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'www.linkedin.com/in/robbe-van-herpe-3ab023227',
+        link: 'www.linkedin.com/in/robbevanherpe',
     },
     {
         name: 'Pl/1 course',
