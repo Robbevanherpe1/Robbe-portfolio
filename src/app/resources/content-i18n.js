@@ -104,6 +104,10 @@ const createI18nContent = (t) => {
             title: 'Studies',
             institutions: [
                 {
+                    name: 'IBM Z Student Ambassador 24/25 ',
+                    description: <></>,
+                },
+                {
                     name: 'University college Hogent',
                     description: <>Studied Mainframe expert.</>,
                 },
