@@ -168,9 +168,9 @@ const createI18nContent = (t) => {
     }
 
     const blog = {
-        label: t("blog.label"),
-        title: t("blog.title"),
-        description: t("blog.description", {name: person.name})
+        label: 'Blog',
+            title: 'My Tech Journey',
+            description: `Read what ${person.name} has been up to recently`
         // Create new blog posts by adding a new .mdx file to app/blog/posts
         // All posts will be listed on the /blog route
     }
