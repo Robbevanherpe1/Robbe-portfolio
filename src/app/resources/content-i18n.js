@@ -70,7 +70,7 @@ const createI18nContent = (t) => {
         intro: {
             display: true,
             title: 'Introduction',
-            description: <>I'm Robbe, a student at Hogent specializing in the Mainframe Expert program. My focus is on programming in PL/I and COBOL, and I'm passionate about building a career in the mainframe field.</>
+            description: <>I'm Robbe, a student at Hogent specializing in the Mainframe Expert program. My focus is on programming in PL/I, and I'm passionate about building a career in the mainframe field.</>
         },
         work: {
             display: false, // set to false to hide this section
@@ -104,7 +104,7 @@ const createI18nContent = (t) => {
             title: 'Studies',
             institutions: [
                 {
-                    name: 'IBM Z Student Ambassador 24/25 ',
+                    name: 'IBM Z Student Ambassador 24/25 - 25/26 ',
                     description: <></>,
                 },
                 {
@@ -123,7 +123,7 @@ const createI18nContent = (t) => {
             skills: [
                 {
                     title: 'Mainframe',
-                    description: <>Skilled in working with ISPF, z/OS systems, Cobol, JCL, and REXX.</>,
+                    description: <>Skilled in working with ISPF, z/OS systems, PL/1, JCL, and REXX.</>,
                     images: [
                         {
                             src: '/images/projects/project-01/ispf-screen.jpg',
